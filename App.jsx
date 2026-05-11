@@ -15,8 +15,8 @@ function App() {
 
       {/* Short Bio */}
       <p style={{ fontSize: "20px", color: "#ccc" }}>
-        Afrobeat & Trap Music Artist
-      </p>
+  Rap • Trap • Hip-Hop • Drill Artist
+</p>
 
       {/* Artist Image */}
       <img
