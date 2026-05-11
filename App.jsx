@@ -30,7 +30,7 @@ function App() {
       />
 
       {/* Music Section */}
-      <h2 style={{ marginTop: "40px" }}>Latest Song</h2>
+      <h2 style={{ marginTop: "40px" }}<h2>Latest Release</h2>
 
       <audio controls style={{ marginTop: "20px" }}>
         <source src="your-song.mp3" type="audio/mpeg" />
