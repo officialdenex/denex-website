@@ -11,12 +11,29 @@ function App() {
       }}
     >
       {/* Artist Name */}
-      <h1 style={{ fontSize: "60px" }}>Official Denex</h1>
+      <h1 style={{ fontSize: "60px" }}>Denex</h1>
 
-      {/* Short Bio */}
+      {/* Genre */}
       <p style={{ fontSize: "20px", color: "#ccc" }}>
-  Rap • Trap • Hip-Hop • Drill Artist
-</p>
+        Rap • Trap • Hip-Hop • Drill Artist
+      </p>
+
+      {/* Bio */}
+      <p
+        style={{
+          maxWidth: "700px",
+          margin: "20px auto",
+          lineHeight: "1.8",
+          color: "#aaa",
+          fontSize: "18px",
+        }}
+      >
+        Port Harcourt-born rap, trap, hip-hop, and drill artist delivering
+        hard-hitting flows, dark vibes, and authentic street energy. Denex
+        blends raw emotion, powerful storytelling, and heavy beats to create
+        music that reflects hustle, pain, ambition, survival, and the mindset
+        of a fearless new generation.
+      </p>
 
       {/* Artist Image */}
       <img
@@ -30,7 +47,7 @@ function App() {
       />
 
       {/* Music Section */}
-      <h2 style={{ marginTop: "40px" }}<h2>Latest Release</h2>
+      <h2 style={{ marginTop: "40px" }}>Latest Release</h2>
 
       <audio controls style={{ marginTop: "20px" }}>
         <source src="your-song.mp3" type="audio/mpeg" />
