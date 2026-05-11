@@ -1,3 +1,13 @@
+const buttonStyle = {
+  color: "white",
+  textDecoration: "none",
+  backgroundColor: "#1a1a1a",
+  padding: "12px 20px",
+  borderRadius: "12px",
+  border: "1px solid #333",
+  fontWeight: "bold",
+};
+
 function App() {
   return (
     <div
@@ -35,6 +45,22 @@ function App() {
         of a fearless new generation.
       </p>
 
+      {/* Stream Button */}
+      <button
+        style={{
+          marginTop: "20px",
+          padding: "15px 30px",
+          backgroundColor: "#ff1e1e",
+          color: "white",
+          border: "none",
+          borderRadius: "10px",
+          fontSize: "18px",
+          cursor: "pointer",
+        }}
+      >
+        Stream Latest Release
+      </button>
+
       {/* Artist Image */}
       <img
         src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
@@ -42,7 +68,7 @@ function App() {
         style={{
           width: "250px",
           borderRadius: "20px",
-          marginTop: "20px",
+          marginTop: "30px",
         }}
       />
 
@@ -53,42 +79,60 @@ function App() {
         <source src="your-song.mp3" type="audio/mpeg" />
       </audio>
 
-      {/* Social Links */}
-      <div style={{ marginTop: "40px" }}>
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          style={{
-            color: "white",
-            margin: "10px",
-            textDecoration: "none",
-          }}
-        >
+      {/* Social & Streaming Links */}
+      <div
+        style={{
+          marginTop: "40px",
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          gap: "15px",
+        }}
+      >
+        {/* Social Media */}
+        <a href="https://instagram.com" target="_blank" style={buttonStyle}>
           Instagram
         </a>
 
-        <a
-          href="https://tiktok.com"
-          target="_blank"
-          style={{
-            color: "white",
-            margin: "10px",
-            textDecoration: "none",
-          }}
-        >
+        <a href="https://tiktok.com" target="_blank" style={buttonStyle}>
           TikTok
         </a>
 
-        <a
-          href="https://youtube.com"
-          target="_blank"
-          style={{
-            color: "white",
-            margin: "10px",
-            textDecoration: "none",
-          }}
-        >
+        <a href="https://facebook.com" target="_blank" style={buttonStyle}>
+          Facebook
+        </a>
+
+        <a href="https://x.com" target="_blank" style={buttonStyle}>
+          X / Twitter
+        </a>
+
+        <a href="https://youtube.com" target="_blank" style={buttonStyle}>
           YouTube
+        </a>
+
+        <a href="https://snapchat.com" target="_blank" style={buttonStyle}>
+          Snapchat
+        </a>
+
+        {/* Streaming Platforms */}
+        <a href="https://spotify.com" target="_blank" style={buttonStyle}>
+          Spotify
+        </a>
+
+        <a href="https://audiomack.com" target="_blank" style={buttonStyle}>
+          Audiomack
+        </a>
+
+        <a href="https://music.apple.com" target="_blank" style={buttonStyle}>
+          Apple Music
+        </a>
+
+        <a href="https://soundcloud.com" target="_blank" style={buttonStyle}>
+          SoundCloud
+        </a>
+
+        <a href="https://boomplay.com" target="_blank" style={buttonStyle}>
+          Boomplay
         </a>
       </div>
     </div>
