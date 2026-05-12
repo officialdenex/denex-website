@@ -1,4 +1,4 @@
-import "./App.css";
+toimport "./App.css";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         </button>
 
         <img
-  src="/file_00000000d954720a87b57161e98.jpg"
+  src="file_00000000d954720a87b57161e98.jpg"
   alt="Denex"
   className="hero-image"
 />
