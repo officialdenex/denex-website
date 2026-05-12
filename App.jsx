@@ -21,7 +21,7 @@ function App() {
   src="./file_00000000d954720a87b57161e98.jpg"
   alt="Denex"
   className="hero-image"
-/>
+/> 
 
           <h2 className="latest-title">
             Latest Release
