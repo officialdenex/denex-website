@@ -38,41 +38,56 @@ function App() {
 
         <div className="socials">
 
-          <a href="https://instagram.com/" target="_blank">
-            Instagram
-          </a>
+  <a
+    href="https://www.instagram.com/denexworld?igsh=MXZyNzZtMGNkYjJleQ=="
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Instagram
+  </a>
 
-          <a href="https://tiktok.com/" target="_blank">
-            TikTok
-          </a>
+  <a
+    href="https://tiktok.com/@iamdenex"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    TikTok
+  </a>
 
-          <a href="https://facebook.com/" target="_blank">
-            Facebook
-          </a>
+  <a
+    href="https://www.facebook.com/share/1D3Pw6Nem7/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Facebook
+  </a>
 
-          <a href="https://twitter.com/" target="_blank">
-            X / Twitter
-          </a>
+  <a
+    href="https://www.youtube.com/@denexmusic"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    YouTube
+  </a>
 
-          <a href="https://youtube.com/" target="_blank">
-            YouTube
-          </a>
+  <a
+    href="https://open.spotify.com/user/31ddbjfv7qpimv3jjvqqlpwsg22m?si=QcZs5Wh4TRasjfC0IIqf7g"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Spotify
+  </a>
 
-          <a href="https://spotify.com/" target="_blank">
-            Spotify
-          </a>
+  <a
+    href="https://on.soundcloud.com/B6ldvkeuogc3kZeCCs"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    SoundCloud
+  </a>
 
-          <a href="https://audiomack.com/" target="_blank">
-            Audiomack
-          </a>
-
-          <a href="https://soundcloud.com/" target="_blank">
-            SoundCloud
-          </a>
-
-        </div>
-
-      </section>
+</div>
+</section>
 
     </div>
   );
