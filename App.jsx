@@ -8,7 +8,7 @@ function App() {
           <h1 className="artist-name">DENEX</h1>
 
           <p className="artist-bio">
-            Afro-fusion artist creating emotional music with powerful
+            Rap artist creating emotional music with powerful
             storytelling and heavy beats inspired by hustle, ambition,
             survival, and street energy.
           </p>
