@@ -25,7 +25,7 @@ function App() {
         </button>
 
         <img
-  src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a"
+  src="/file_00000000d954720a87b57161e98.jpg"
   alt="Denex"
   className="hero-image"
 />
