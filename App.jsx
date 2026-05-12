@@ -23,10 +23,10 @@ function App() {
         </button>
 
         <img
-          src="/denex-banner.jpg"
-          alt="Denex"
-          className="hero-image"
-        />
+  src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a"
+  alt="Denex"
+  className="hero-image"
+/>
 
         <h2 className="latest-title">
           Latest Release
