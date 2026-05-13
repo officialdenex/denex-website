@@ -18,11 +18,10 @@ function App() {
           </button>
 
           <img
-  src="/file_00000000d954720a87b57161e98a89e2.png
+  src="/file_00000000d954720a87b57161e98a89e2.png"
   alt="Denex"
   className="hero-image"
-/> 
-
+/>
           <h2 className="latest-title">
             Latest Release
           </h2>
