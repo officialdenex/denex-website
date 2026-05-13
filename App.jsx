@@ -29,7 +29,7 @@ function App() {
 
           <audio controls className="music-player">
             <source src="/song.mp3" type="audio/mp3" />
-          </audio>
+          </audio> 
 
           <div className="socials">
             <a href="#">Instagram</a>
