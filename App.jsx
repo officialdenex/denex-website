@@ -38,7 +38,6 @@ function App() {
         </div>
       </section>
 
-       {/* photo */}
   <section className="gallery-section">
   <h2>Photo Gallery</h2>
 
