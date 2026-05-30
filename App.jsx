@@ -38,10 +38,8 @@ function App() {
         </div>
       </section>
 
-      {/* MUSIC SECTION */}
-      <section className="music-section">
-        <h2>Latest Release</h2>
-     <section className="gallery-section">
+       {/* photo */}
+  <section className="gallery-section">
   <h2>Photo Gallery</h2>
 
   <div className="gallery-grid">
@@ -51,6 +49,10 @@ function App() {
     <img src="/photo4.jpg" alt="Denex" />
   </div>
 </section>
+
+      {/* MUSIC SECTION */}
+      <section className="music-section">
+        <h2>Latest Release</h2>
 
         <div className="song-card">
           <img
