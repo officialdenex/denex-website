@@ -41,6 +41,16 @@ function App() {
       {/* MUSIC SECTION */}
       <section className="music-section">
         <h2>Latest Release</h2>
+     <section className="gallery-section">
+  <h2>Photo Gallery</h2>
+
+  <div className="gallery-grid">
+    <img src="/photo1.jpg" alt="Denex" />
+    <img src="/photo2.jpg" alt="Denex" />
+    <img src="/photo3.jpg" alt="Denex" />
+    <img src="/photo4.jpg" alt="Denex" />
+  </div>
+</section>
 
         <div className="song-card">
           <img
